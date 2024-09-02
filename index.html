@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>7DaysOfCode</title>
+</head>
+
+
+<body>
+
+    <header>
+        <div class="header">
+            <a href="https://app.aluracursos.com/user/lucasramirez" target="_blank"> 
+                <img class="logo__lrdi" src="./assets/lrdi.png" alt="Logo LRamirez.DI">
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1></h1>
+                    <p class="texto__parrafo"></p>
+                </div>
+                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
+                <div class="chute container__botones">
+                    <button onclick="verificarIntento();" class="container__boton" id="intentar" >Intentar</button>
+                    <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <!-- BOTON CAMBIO DE ESTILOS -->
+        <p class="creador">● Creado por 
+            <a class="usuario" href="https://www.instagram.com/lramirez.di/" target="_blank">
+                LRamirez.DI 
+            </a>
+         - 2024 ●   
+        </p>
+        <div>
+            <a href="https://github.com/LucasNicolasRamirez" target="_blank">
+                <img class="links" src="./assets/github.png" />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/lucasnicolásramírez/" target="_blank">
+                <img class="links" src="./assets/linkedin.png" />
+            </a>
+            <a href="https://www.instagram.com/lramirez.di/" target="_blank">
+                <img class="links" src="./assets/instagram.png" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
